@@ -1,0 +1,17 @@
+# Credentials and local collected data must never be committed.
+.local/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.dpapi
+*.pem
+*.key
+*.db
+*.sqlite*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+dist/
+config/
